@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/level1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/main_background_2" />
+
+    <LinearLayout
+        android:id="@+id/containerL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/containerLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/lineL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/btn_stroke_black95_press_white"
+                    android:text="@string/back"
+                    android:onClick="btn_back_rocklevels"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:padding="10dp"
+                    android:text="@string/levels"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linePoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/point1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+
+                <TextView
+                    android:id="@+id/point10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/style_points_default"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lineVar1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/optionA_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="Options_btn_click"
+                    android:layout_marginRight="5dp"
+                    android:ems="5"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/imglevels"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/optionB_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:ems="5"
+                    android:textStyle="bold"
+                    android:onClick="Options_btn_click"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/imglevels"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lineVar2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/optionC_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:ems="5"
+                    android:scaleType="centerCrop"
+                    android:onClick="Options_btn_click"
+                    app:srcCompat="@drawable/imglevels"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/optionD_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:ems="5"
+                    android:onClick="Options_btn_click"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/imglevels"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/listen_music"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_listen"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                android:onClick="play_music_btn_click"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_stroke_black95_press_white"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/Timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+    </LinearLayout>
+</RelativeLayout>

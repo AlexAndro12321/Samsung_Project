@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Угадай мелодию</string>
+    <string name="start">Начать</string>
+    <string name="back">Назад</string>
+    <string name="levels">Уровень:</string>
+    <string name="btn_listen">Прослушать</string>
+</resources>
